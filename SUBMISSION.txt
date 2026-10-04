@@ -1,0 +1,26 @@
+Graph Algorithms Visualizer - ICE Submission
+============================================
+
+Student:            Caleb Pryce
+Public GitHub repo: https://github.com/<your-username>/graph-algorithms-visualizer
+
+Contents of the zipped project
+------------------------------
+- pom.xml                      Maven build (Java 21, JUnit 5)
+- src/main/java                Application source (model, algorithms, visualizer, storage)
+- src/main/resources/examples  Four example graphs (.graph)
+- src/test/java                44 JUnit 5 unit tests
+- docs/media                   Demonstration GIFs and screenshots (supporting evidence)
+- README.md                    Description, run instructions, usage guide, skills, reflection
+
+Features added
+--------------
+- Step-by-step algorithm playback: play/pause, step back/forward, scrubber, speed, clickable trace
+- Plain-English explanation of every step, with the live queue/stack/priority queue
+- Real-time source-to-target pathfinding (Dijkstra's with early stopping and path tracing)
+- Hover a vertex after BFS/Dijkstra's to trace its path
+- New algorithm: Kruskal's minimum spanning tree (union-find), including spanning forests
+- Drag-and-drop vertices, drag-to-connect edges, edge-weight editing, right-click menus
+- Validation with clear error messages; Dijkstra's refuses negative weights
+- Save/load .graph files, bundled examples, PNG export, keyboard shortcuts, dark theme
+- Bug fixes: Dijkstra's single-vertex crash, Edge equals/hashCode contract, weight-overflow crash, pom.xml Java version and main class

@@ -1,0 +1,15 @@
+# Build output
+target/
+out/
+*.class
+
+# IDEs
+.idea/
+*.iml
+nbproject/private/
+nbactions.xml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

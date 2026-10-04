@@ -1,0 +1,17 @@
+# Graph Algorithms Visualizer
+# Tutorial graph: six vertices, one detour that makes Dijkstra interesting (A->B is cheaper via C)
+vertex A 120 300
+vertex B 300 150
+vertex C 300 450
+vertex D 500 150
+vertex E 500 450
+vertex F 680 300
+edge A B 4
+edge A C 2
+edge B C 1
+edge B D 5
+edge C D 8
+edge C E 10
+edge D E 2
+edge D F 6
+edge E F 3

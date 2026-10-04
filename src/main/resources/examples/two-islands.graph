@@ -1,0 +1,19 @@
+# Graph Algorithms Visualizer
+# Disconnected graph: two components plus an isolated vertex.
+# Shows unreachable vertices in Dijkstra and a spanning forest in Kruskal's.
+vertex A 130 190
+vertex B 320 120
+vertex C 280 320
+vertex D 480 290
+vertex E 660 200
+vertex F 650 430
+vertex G 470 480
+vertex H 140 470
+edge A B 3
+edge B C 4
+edge A C 6
+edge D E 2
+edge E F 5
+edge F G 1
+edge D G 7
+edge D F 4

@@ -1,0 +1,26 @@
+# Graph Algorithms Visualizer
+# The classic minimum spanning tree example from Cormen et al., Introduction to Algorithms (Fig. 23.1).
+# Known answer: the MST has 8 edges and total weight 37.
+vertex A 90 300
+vertex B 230 160
+vertex C 410 160
+vertex D 590 160
+vertex E 720 300
+vertex F 590 440
+vertex G 410 440
+vertex H 230 440
+vertex I 330 300
+edge A B 4
+edge A H 8
+edge B C 8
+edge B H 11
+edge C I 2
+edge C F 4
+edge C D 7
+edge D F 14
+edge D E 9
+edge E F 10
+edge F G 2
+edge G I 6
+edge G H 1
+edge H I 7
